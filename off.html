@@ -1,0 +1,48 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>MQTT PC Client</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
+		<style type="text/css">
+			.btn-oval {
+				border-radius: 100px;
+			}
+			body {
+				font-family: 'Lato', sans-serif;
+			}
+			h2 {
+				font-family: sans-serif;	
+			}
+		</style>
+
+	</head>
+	<body>
+		<div class="container" style="width:400px; text-align:center; border: 1px solid black; padding:20px 20px;">
+			<div class="row">
+				<div class="col-xs-12">
+					<h2><strong>APOTHEM</strong></h2>
+				</div>
+				<hr>
+			</div>
+			<div>
+				<h4>Control Panel</h4>
+				<button type="button" class="btn btn-danger btn-oval "><a href="/motor/off">STOP</a></button>
+				<button type="button" class="btn btn-success btn-oval"><a href="/motor/on">START</a></button>
+				<br><br>
+			</div>
+			<div>
+				<h4>3 Phase Supply</h4>
+				<button type="button" class="btn btn-warning btn-oval ">A</button>
+				<button type="button" class="btn btn-warning btn-oval">B</button>
+				<button type="button" class="btn btn-warning btn-oval">C</button>
+				<br><br>
+			</div>
+
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+	</body>
+</html>
